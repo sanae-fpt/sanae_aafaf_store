@@ -1,0 +1,171 @@
+img{
+  margin-left:120px;
+}
+.decale{
+  margin-left :950px;
+  margin-top:100px;
+}
+p1{
+  margin-right:85px;
+  margin-bottom: 70px;
+  color: rgb(196, 140, 0);
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 50px;
+  transition: width 0.4s ease;
+}
+.search-input:focus {
+  width: 150px;
+}
+.search-button { 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#icone2{
+  color: black;
+}
+.search-button:hover {
+  background-color:#c9c2c2 ;
+}
+
+p5{
+  margin-left: 30px;
+}
+h3{
+font-size: 15px;
+color: green;
+margin-left: 10px;
+margin-top: 20px;
+}
+
+
+
+.button {
+ 
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: rgb(156, 156, 156); 
+}
+.input{
+  border-radius: 20px;
+}
+#jaime{
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.decale{
+  margin-left: 700px;
+}
+.center {
+  text-align: center;
+}
+
+.heart{
+color: white;
+border: none;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+
+.heart:hover{
+  color: red;
+}
+
+
+.menu{
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+ margin-right: 10px;
+}
+.menu:hover{
+  color: white;
+  background-color: black;
+}
+
+#icone{
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#nmra{
+  color: white;
+  font-size: 20px ;
+  margin-left:5px;
+}
+#button{
+  border-radius: 15px;
+  margin-left: 1160px;
+  
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#image{
+  margin-right: 100px;
+  border-radius: 20px;
+}
+.acheter{
+  border-radius: 20px;
+}
+.paiment{
+ font-size: 30px;
+ color: green;
+  position: relative;
+  animation: deplacement 5s infinite linear;
+}
+@keyframes deplacement {
+  0% {
+    left: -200px; 
+  }
+  100% {
+    left: 100%; 
+  }
+}
+#merci{
+  text-align: center;
+  margin-top: 200px;
+}
+a:hover{
+  color: goldenrod;
+}
+a{
+  text-decoration: none;
+}
+
+
+#merci2{
+  text-align: center;
+}
+
+.blanco{
+  background-image: linear-gradient(to right , rgb(142, 117, 55) , rgb(222, 178, 66));
+}
+
+  td {
+    padding: 10px 20px;
+}

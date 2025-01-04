@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLDEN STORE</title>
+    <link rel="icon" href="img/sanae2024.png" type="image/png" >
+    <link rel="stylesheet" href="sanae_aafaf.css">
+  <link rel="icon" href="img/sanae2024.png" type="image/png" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <style>
+        label{
+            width:50px;
+            margin-bottom:10px;
+        }
+        input{
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="sanae">Bonjour chers clients</h2>
+    <h4 id="sanae">Merci de remplir cette formulaire</h4>
+<form id="sanae" action="http://127.0.0.1:5000/submit" method="post">
+    <label for="nom">Nom</label> 
+        <input class="input" id="nom" required></input></br>
+
+    <label for="prenom">Prénom</label> 
+        <input class="input" id="prenom" required></input></br>
+
+    <label for="adresse">Adresse</label> 
+        <input  class="input" id="adresse" required></input></br>
+
+    <p30>Choisir une agence bancaire</p30></br>
+    <input type="radio" value="wafa cash" name="bank" required>
+      <label>Wafa Cash</label>
+    <input type="radio" value="CIH" name="bank" required>
+      <label>CIH</label>
+    <input type="radio" value="attijari wafa bank" name="bank" required>
+      <label>Attijari wafa bank</label><br/>
+   
+    
+    <label for="tel">Num de téléphone</label> 
+        <input  class="input"  type="text" id="tel" required></input></br>
+
+    <label for="gmail">Gmail</label> 
+        <input  class="input" type="email" id="gmail" required></input></br>
+        
+
+    <label for="carte">scanner votre carte nationale</label></br>
+        <input class="input" type="file"  id="carte" required></input></br>
+
+       <input class="input" type="submit" value="Envoyer">
+</form> 
+<img src="img/sanae2024.png" height="250"width="250" alt="logo" class="decale">
+</body>
+</html>
